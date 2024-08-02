@@ -11,3 +11,6 @@
 !app.py
 .Config.py
 .generate_password.py
+
+#Ignorar .env donde esta apikey 
+.env
