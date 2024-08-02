@@ -1,5 +1,12 @@
+# Ignorar todos los archivos .txt
 *.txt
+
+# Ignorar el archivo .update.txt
 .update.txt
+
+# Ignorar todos los archivos .py
 *.py
+
+# Ignorar los archivos específicos .Config.py y .generate_password.py
 .Config.py
 .generate_password.py
