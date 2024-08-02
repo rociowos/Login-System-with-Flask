@@ -3,6 +3,7 @@
 
 # Ignorar el archivo .update.txt
 .update.txt
+!requirements.txt
 
 # Ignorar todos los archivos .py
 *.py
