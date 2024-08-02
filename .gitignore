@@ -1,3 +1,5 @@
 *.txt
 .update.txt
+*.py
 .Config.py
+.generate_password.py
