@@ -11,3 +11,5 @@ function togglePasswordVisibility(passwordFieldId) {
         icon.classList.add('fa-eye');
     }
 }
+
+//icon ojo de la contraseña

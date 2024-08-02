@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="weather-container">
+        <h2>Clima en {{ weather.city }}</h2>
+        <p>Temperatura: {{ weather.temperature }}°C</p>
+        <p>Descripción: {{ weather.description }}</p>
+        <a href="{{ url_for('home') }}">Volver a inicio</a>
+    </div>
+</body>
+</html>
