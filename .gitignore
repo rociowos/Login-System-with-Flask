@@ -8,5 +8,6 @@
 *.py
 
 # Ignorar los archivos específicos .Config.py y .generate_password.py
+!app.py
 .Config.py
 .generate_password.py
