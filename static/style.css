@@ -38,6 +38,45 @@ header {
     color: #333333;
 }
 
+.user-list-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333333;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #5cb85c;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
 /* Estilos para los contenedores */
 .login-container, .success-container {
     background-color: #ffffff;
@@ -128,6 +167,13 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.success {
+    color: rgb(72, 221, 72);
+    font-size: 0.9em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 /* Estilos para la página de éxito */
 .success-container {
     background-color: #f9f9f9;
@@ -159,3 +205,18 @@ a:hover {
     text-decoration: underline;
 }
 
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    flex: 1;
+}
+
+.toggle-password {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
