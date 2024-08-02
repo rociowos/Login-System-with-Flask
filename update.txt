@@ -1,0 +1,8 @@
+
+- ojito en contraseña
+- doble confirmacion de contraseña
+
+- llamar a alguna API (Imaginar)
+
+--cuando el nombre de usuario existe hacer que no se abra otra paginna sino que tire error
+-- cuando se registra correctamente que aparezca en verde abajo t has registrado correctamente

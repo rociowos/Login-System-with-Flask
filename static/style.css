@@ -8,6 +8,37 @@ body {
     margin: 0;
 }
 
+/* Estilo para el encabezado */
+header {
+    position: fixed; /* Fijo para que se mantenga en la esquina superior derecha */
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.admin-access {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+}
+
+.admin-access img {
+    width: 30px; /* Tamaño reducido del ícono */
+    height: 30px;
+    margin-right: 8px;
+}
+
+.admin-access p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Estilos para los contenedores */
 .login-container, .success-container {
     background-color: #ffffff;
     padding: 30px;
@@ -17,6 +48,18 @@ body {
     max-width: 400px;
     text-align: center;
 }
+
+/* Estilo para el enlace de regreso */
+.login-container a {
+    color: #5cb85c;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
 
 form {
     display: flex;
@@ -81,7 +124,7 @@ a:hover {
 .error {
     color: red;
     font-size: 0.9em;
-    margin-top: -10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -115,3 +158,4 @@ a:hover {
 .success-container a:hover {
     text-decoration: underline;
 }
+

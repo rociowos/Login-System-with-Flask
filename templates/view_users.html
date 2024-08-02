@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Users</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="admin-access">
+            Admin Access
+        </div>
+    </header>
+    <div class="users-container">
+        <h2>Users List</h2>
+        <ul>
+            {% for user in users %}
+                <li>{{ user[0] }}</li>
+            {% else %}
+                <li>No users found.</li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('admin_login') }}">Back to Admin Login</a>
+    </div>
+</body>
+</html>
