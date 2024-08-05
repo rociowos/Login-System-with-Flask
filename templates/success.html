@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Success</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="success-container">
         <h2>Bienvenido</h2>
         <p>Te has registrado exitosamente.</p>
-        <button id="weather-button">Ver clima</button>
+        <button id="weather-button">
+            <i class="fas fa-cloud-sun"></i> Ver clima
+        </button>
         <a href="{{ url_for('show_weather') }}" id="weather-link" style="display: none;"></a>
         <a href="{{ url_for('login') }}">Volver a inicio de sesión</a>
     </div>
