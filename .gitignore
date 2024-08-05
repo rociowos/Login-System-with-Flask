@@ -4,7 +4,7 @@
 # Ignorar el archivo .update.txt
 .update.txt
 !requirements.txt
-!secretKeys.txt
+!ApiKey.txt
 
 # Ignorar todos los archivos .py
 *.py

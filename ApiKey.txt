@@ -1,0 +1,6 @@
+Keys You Need to Run the Program
+
+1. Obtain the Weather API Key
+    1. Create an account at OpenWeatherMap.
+    2. Copy the provided API key.
+    3. On the .env file paste your APIKEY:
