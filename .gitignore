@@ -11,8 +11,7 @@
 
 # Ignorar los archivos específicos .Config.py y .generate_password.py
 !app.py
-.Config.py
-.generate_password.py
+!Config.py
+!generate_keys.py
 
-#Ignorar .env donde esta apikey 
-.env
+
