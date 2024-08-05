@@ -18,6 +18,7 @@ Este proyecto es una aplicación web simple de gestión de usuarios utilizando *
 - Flask
 - SQLAlchemy
 - Paquetes de Python listados en `requirements.txt`
+- Leer `secret_Keys.txt` para poder correr el programa. 
 
 ## Uso
 
