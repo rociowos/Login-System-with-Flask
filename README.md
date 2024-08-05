@@ -16,7 +16,7 @@ Este proyecto es una aplicación web simple de gestión de usuarios utilizando *
 
 - Python 3.x
 - Flask
-- MySQL
+- SQLAlchemy
 - Paquetes de Python listados en `requirements.txt`
 
 ## Uso
@@ -47,7 +47,7 @@ Este proyecto es una aplicación web simple de gestión de usuarios utilizando *
 
 - **Python 3.x**: Lenguaje de programación utilizado para desarrollar la aplicación.
 - **Flask**: Microframework para Python que maneja las rutas y la lógica de la aplicación web.
-- **MySQL**: Sistema de gestión de bases de datos utilizado para almacenar usuarios.
+- **SQLAlchemy**: Sistema de gestión de bases de datos utilizado para almacenar usuarios.
 - **HTML/CSS**: Lenguajes de marcado y estilo para construir la interfaz de usuario.
 - **JavaScript**: Lenguaje de programación para funcionalidades interactivas en la web.
 - **API REST de OpenWeatherMap**: Servicio externo utilizado para obtener datos del clima.
