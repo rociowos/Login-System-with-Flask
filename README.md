@@ -1,6 +1,6 @@
 # Login System with Flask
 
-Este proyecto es una aplicación web simple de gestión de usuarios utilizando **Flask**, **Python**, **HTML**, **CSS** y **MySQL**. La aplicación permite a los usuarios registrarse, iniciar sesión y, para los administradores, visualizar la lista de usuarios. También incluye funcionalidades modernas como mostrar/ocultar contraseña, un diseño estilizado y la capacidad de consultar el clima actual.
+Este proyecto es una aplicación web simple de gestión de usuarios utilizando **Flask**, **Python**, **HTML**, **CSS** y **SQLAlchemy**. La aplicación permite a los usuarios registrarse, iniciar sesión y, para los administradores, visualizar la lista de usuarios. También incluye funcionalidades modernas como mostrar/ocultar contraseña, un diseño estilizado y la capacidad de consultar el clima actual.
 
 ## Características
 
